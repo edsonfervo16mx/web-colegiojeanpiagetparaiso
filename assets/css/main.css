@@ -1,0 +1,33 @@
+/*
+#81c10b
+#9db215
+
+#995709
+#fbfdb2
+*/
+#oferta{
+	background-color: #81c10b;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.insignia{
+	display: inline-block;
+}
+
+.text-black{
+	color: #424242;
+}
+
+.text-white{
+	color: #f9f9f9;
+}
+
+.text-green1{
+	color: #81c10b;
+}
+
+.text-green2{
+	color: #9db215;
+}
