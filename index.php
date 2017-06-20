@@ -42,23 +42,23 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html">Colegio Jean Piaget</a>
+				<a class="navbar-brand" href="index.php">Colegio Jean Piaget</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="index.html">Inicio</a>
+						<a href="index.php">Inicio</a>
 					</li>
 					<li>
-						<a href="about.html">About</a>
+						<a href="#">About</a>
 					</li>
 					<li>
-						<a href="post.html">Sample Post</a>
+						<a href="#">Sample Post</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="#">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -67,23 +67,52 @@
 		<!-- /.container -->
 	</nav>
 
-	<!-- Page Header -->
-	<!-- Set your background image for this header on the line below. -->
-	<header class="intro-header" style="background-image: url('assets/img/banner-example-01.jpg')">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-					<div class="site-heading">
-						<h1>Jean Piaget</h1>
-						<hr class="small">
-						<span class="subheading">Trabajo duro, da frutos</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+   
+    <!-- Full Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-	<!-- Main Content -->
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('assets/img/banner-example-01.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('assets/img/banner-example-01.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('assets/img/banner-example-01.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
 	<section id="oferta">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
@@ -111,6 +140,9 @@
 			</div>
 		</div>
 	</section>
+    <!-- -->
+	
+    <!-- -->
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-8">
